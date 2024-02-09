@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wehead-hack-sdk"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "wehead_hack_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-socketio = "^5.11.1"
+numpy = "^1.26.4"
+opencv-python = "^4.9.0.80"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
