@@ -13,7 +13,7 @@ First, you'll need a valid token. __As part of a hackathon, you can use any stri
 Before diving into the code, install `wehead_hack_sdk`:
 
 ```
-pip install git+https://github.com/zerodistancein/wehead_hack_sdk.git
+pip install git+https://github.com/zerodistanceinc/wehead_hack_sdk.git
 ```
 
 ### Debugging with the 3D Simulation
