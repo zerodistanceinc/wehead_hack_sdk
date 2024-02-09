@@ -95,7 +95,7 @@ def process_frame(img):
 
 @wehead.on_phrase
 def handle_phrase(text):
-    if text == "exit":
+    if text == "Exit.":
         wehead.say("Goodbye")
         time.sleep(1)
         exit()
