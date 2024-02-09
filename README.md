@@ -90,8 +90,9 @@ wehead.say("Initializing Wehead SDK Example")
 
 @wehead.on_video
 def process_frame(img):
+    cv2.waitKey(30)
     cv2.imshow('Wehead Video', img)
-    cv2.waitKey(1)
+    cv2.waitKey(30)
 
 @wehead.on_phrase
 def handle_phrase(text):
