@@ -22,6 +22,8 @@ class Wehead:
             auth={"token": token, "role": "user"},
             socketio_path="msg",
         )
+        while not self._sio.connected:
+            time.sleep(0.1)
 
     def move(self, pitch: float, yaw: float):
         """Instructs the Wehead to adjust its position.
