@@ -21,6 +21,8 @@ class Wehead:
             self.BASE_URL,
             auth={"token": token, "role": "user"},
             socketio_path="msg",
+            wait_timeout=100,
+            retry=True,
         )
         while not self._sio.connected:
             time.sleep(0.1)
