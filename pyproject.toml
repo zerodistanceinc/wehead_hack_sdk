@@ -11,6 +11,7 @@ python = "^3.8"
 python-socketio = "^5.11.1"
 opencv-python = "^4.9.0.80"
 requests = "^2.31.0"
+websocket-client = "^1.7.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.1.1"
