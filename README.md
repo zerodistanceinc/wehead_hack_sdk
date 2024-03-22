@@ -23,7 +23,7 @@ Accessing the 3D Simulation
 The 3D simulation can be accessed via any modern web browser. Simply navigate to the following URL, replacing YOUR_TOKEN_HERE with your actual authentication token:
 
 ```
-https://wehead-landing--yuy2-wp1w4g77.web.app/wehead_call/?dev=1&loc=full&main=1&token=YOUR_TOKEN_HERE
+https://wehead-landing--yuy2-99o1y0z7.web.app/wehead_call/?dev=1&loc=full&main=1&token=YOUR_TOKEN_HERE
 ```
 
 Make sure to use the correct token for authentication. Don't forget to grant access to the camera and microphone!
