@@ -43,7 +43,7 @@ class Wehead:
             },
         )
 
-    def say(self, text: str, voice: str = "shimmer"):
+    def say(self, text: str, voice: str = "shimmer", speed: float = 1.0):
         """Commands the Wehead to speak a given text in a specified voice.
         
         Args:
@@ -51,8 +51,10 @@ class Wehead:
             voice (str, optional): The voice Wehead will use. Available
                 voices: alloy, echo, fable, onyx, nova, and shimmer.
                 Defaults to "shimmer".
+            speed (float, optional): The speed at which the text is spoken.
+                Defaults to 1.0.
         """
-        self._safe_emit("tts", {"text": text, "voice": voice})
+        self._safe_emit("tts", {"text": text, "voice": voice, "speed": speed})
 
     def on_video(self, func):
         """Defines a callback for handling video data from the Wehead.

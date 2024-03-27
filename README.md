@@ -50,7 +50,7 @@ wehead.move(pitch=0.3, yaw=0.3)
 To make the Wehead speak, use:
 
 ```Python
-wehead.say(text="Hello, world!", voice="shimmer")
+wehead.say(text="Hello, world!", voice="shimmer", speed=1.15)
 ```
 
 ### Processing Video
